@@ -1,0 +1,39 @@
+O git é um sistema de controle de versões distribuido 
+
+O git bash é um terminal estendido para otimizar o uso do git 
+
+O github é uma plataforma de hospedagem de código e arquivos com controle de versão usando o Git 
+
+O Ciclo de vida e suas terminologias:
+Untracked e Tracked: Estrutura de rastreamento de arquivos dentro do git, são divididos em tres estágios, sendo eles:
+Unmodified: quando ainda não foi modificado
+Modified: sofreu alguma modificação
+Stage: conceito chave
+Commit: Envelopamento do objeto 
+- Essa area de transferencia está sempre em movimento de um ciclo.
+
+Comandos e sintaxe do git bash;
+
+git config --global user.email "email...": configurar email do autor 
+git config --global user.name Nomedoautor: configurar nome do autor 
+git init: Criar um repositorio dentro do diretorio (inicializar o git dentro da pasta)
+git status: Imprime o atual condição da pasta 
+git add . : adiciona todos os arquivos no controle de versão local 
+git commit -m "comentario relevante ao comando executado": realiza o commit dentro do controle de versão e para enviar para nuvem (repositorio github) é necessario o comando "git push"
+git push origin main: envia os commit local para a nuvem 
+git clone "e colar": importar o arquivo copiado da nuvem 
+ls: listar os arquivos existentes 
+cd "pasta": acessa uma determinada pasta (tab pode ser um atalho de busca)
+mkdir: criar uma nova pasta 
+ls -a: mostrar arquivos ocultos 
+cd .git/: mostrar estrutura de arquivos da pasta oculta .git
+cd.. : retorna ao nivel anterior 
+
+Resolução de conflitos no Github:
+
+
+
+
+
+
+
